@@ -1,0 +1,68 @@
+h1, h2, h3, h4, h5{
+    color: #002e5b;
+    font-weight: bold;
+}
+img{
+    width: 100%;
+}
+p{
+    font-family: 'Segoe UI', 'Century Gothic';
+    font-size: 16px;
+    margin-left: 0px;
+}
+.well h1{
+    font-weight: bolder;
+    color: #fff;
+}
+.well{
+    background: #002e5b;
+    border-radius: 0px;
+    border: 0px;
+}
+
+.price-block{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #eee;
+}
+
+.price-block-primary, .price-block-warning{
+    margin: 30px 0px;
+}
+
+.price-block-primary .price-block .price-block-header{
+    background: #002e5b;
+    color: #fdd428;
+}
+
+.price-block-warning .price-block .price-block-header{
+    background: #fdd428;
+    color:#002e5b;
+}
+
+.price-block-header{
+    font-size: 2em;
+    padding: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+.price-block-amount{
+    font-size: 1.5em;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px dashed #eee;
+}
+
+.price-block-feature{
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.price-block-footer{
+    padding: 20px;
+    text-align: center;
+}

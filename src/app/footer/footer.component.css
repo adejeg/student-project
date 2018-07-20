@@ -1,0 +1,33 @@
+/* footer */
+footer{
+    background: #002e5b;
+    color: #fff;
+    padding: 20px 0px;
+}
+footer h4{
+    color: #fff;
+}
+
+footer .list-group .list-group-item{
+    background: #002e5b;
+    border-radius: 0px;
+}
+
+footer a{
+    color: #fff;
+}
+footer a:hover{
+    color: #fdd428;
+    text-decoration: none;
+}
+.social-links i{
+    border: 1px solid #fdd428;
+    cursor: pointer;
+    color: #fff;
+    font-size: 12px;
+    padding: 8px;
+    margin-right: 10px;
+}
+.social-links i:hover{
+    color: #fdd428;
+}

@@ -1,0 +1,48 @@
+h1, h2, h3, h4, h5{
+    color: #002e5b;
+    font-weight: bold;
+}
+img{
+    width: 100%;
+}
+
+.jumbotron{
+    background: #002e5b;
+    color: #fff;
+}
+.jumbotron h2{
+    color: #fff;
+}
+p{
+    font-family: 'Segoe UI', 'Century Gothic';
+    font-size: 16px;
+    margin-left: 0px;
+}
+
+
+
+/* Service begining*/
+.service-block{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.service-block-icon{
+    width: 72px;
+    height: 72px;
+    float: left;
+    min-width: 52px;
+    background: #002e5b;
+    border: 1 px solid #002e5b;
+    color: #fdd428;
+    font-size: 30px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 21px;
+    margin-top: 7px;
+}
+
+.service-block-content{
+    padding: 0px 10px;
+    overflow: hidden;
+}

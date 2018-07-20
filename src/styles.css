@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'Segoe UI', 'Century Gothic';
+}
+.my-button{
+    background: #fdd428;
+    border-radius: 0px;
+    color: #002e5b;
+}
