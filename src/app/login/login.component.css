@@ -1,0 +1,12 @@
+.login-container{
+    margin: 5% auto;
+}
+.input-group{
+    margin: 1.5em;
+}
+.sign-in-button{
+    width: 100%;
+}
+a{
+    cursor: pointer;
+}

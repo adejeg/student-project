@@ -1,3 +1,39 @@
-<p>
-  register works!
-</p>
+<div class="container login-container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 col-xs-8"></div>
+      <div class="col-md-4 col-sm-6 col-xs-8">
+        <div class="panel-group">
+          <div class="panel panel-primary">
+            <div class="panel-heading">School Project</div>
+            <div class="panel-body">
+              <form>
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                  <input class="form-control" type="text" placeholder="FULL NAME">
+                </div>
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                  <input class="form-control" type="text" placeholder="USERNAME">
+                </div>
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                  <input class="form-control" type="email" placeholder="EMAIL">
+                </div>
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                  <input class="form-control" type="password" placeholder="PASSWORD">
+                </div>
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
+                  <input class="form-control" type="number" placeholder="TELEPHONE">
+                </div>
+                <div class="input-group pull-right"><a (click)="gotoSignIn()">SIGN IN</a></div>
+                <div class="input-group"><input type="submit" value="SIGN UP" class="btn btn-primary sign-in-button"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-8"></div>
+    </div>
+  </div>
